@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792220049209",
+    "project_id": "xperience-db1ae",
+    "storage_bucket": "xperience-db1ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792220049209:android:d9dd4862a26c8c4a5852e8",
+        "android_client_info": {
+          "package_name": "com.hyzoka.xperience"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792220049209-74lo0gfftdk25phvmp87ko07cp862tqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvDhZJ4LIHdJBMRcILUQ-3h-8BhC9zxXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792220049209-74lo0gfftdk25phvmp87ko07cp862tqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
