@@ -1,13 +1,11 @@
-package com.hyzoka.xperience.ui.main
+package com.hyzoka.xperience.ui.position
 
-import android.app.PictureInPictureUiState
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -19,17 +17,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.input.pointer.PointerIconDefaults.Text
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.coroutineScope
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.commandiron.expandable_horizontal_pager.ExpandableHorizontalPager
-import com.hyzoka.xperience.R
 import com.hyzoka.xperience.databinding.FragmentPositionBinding
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.compose.material3.Text
@@ -68,7 +63,6 @@ class PositionFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         positionViewModel.getPositionsData()
-
     }
 
     @OptIn(ExperimentalPagerApi::class)

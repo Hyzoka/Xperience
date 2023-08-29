@@ -1,4 +1,4 @@
-package com.hyzoka.xperience.ui.main
+package com.hyzoka.xperience.ui.position
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
